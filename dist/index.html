@@ -5,7 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script async></script>
     <script src="main.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <form class="search">
+        <div class="input-container">
+          <input type="text" placeholder="enter location" />
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </header>
+    <div class="main-container">
+      <div class="location-container">
+        <div class="location">Toronto</div>
+        <div class="info-container">
+          <div class="temperature-container">
+            <div class="temperature">24</div>
+            <div class="celcius-symbol">&#8451;</div>
+          </div>
+          <div class="location-info">
+            <div class="feels-like">Feels like: 30&#8451;</div>
+            <div class="wind-speeds">Winds: 1.34km</div>
+            <div class="status">Clear skies</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

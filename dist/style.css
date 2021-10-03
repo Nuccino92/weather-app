@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background: url(./images/background.jpeg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header {
+  height: 130px;
+  background-color: rgba(30, 61, 131, 0.5);
+  box-shadow: 0 4px 2px -3px rgb(56, 56, 56);
+}
+
+form {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  height: 100%;
+}
+
+.input-container {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.input-container input {
+  font-size: 22px;
+  padding: 5px;
+  border-radius: 2px;
+  border: none;
+}
+
+.input-container button {
+  cursor: pointer;
+  padding: 0 13px 0 13px;
+  font-size: 17px;
+  margin-left: 7px;
+  border-radius: 2px;
+  border: none;
+  background: rgb(29, 155, 197);
+  color: white;
+  font-weight: bolder;
+}
+
+.input-container button:active {
+  box-shadow: 0 0 1px 1px rgb(29, 155, 197);
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.location-container {
+  background-color: rgba(30, 61, 131, 0.5);
+  box-shadow: 0 4px 2px -3px rgb(56, 56, 56);
+  height: 400px;
+  width: 400px;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  padding: 35px 10px 10px 10px;
+  margin: 50px 0 0 233px;
+  border-radius: 10px;
+}
+
+.location {
+  font-size: 60px;
+  padding: 5px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 35px 5px 0 5px;
+}
+
+.temperature-container {
+  padding-left: 10px;
+  display: flex;
+}
+
+.temperature {
+  font-size: 111px;
+}
+
+.celcius-symbol {
+  font-size: 25px;
+  padding-right: 15px;
+  border-right: 1px solid white;
+}
+
+.location-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 15px 10px 15px;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
